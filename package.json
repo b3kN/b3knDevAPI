@@ -1,0 +1,23 @@
+{
+  "name": "b3knDevAPI",
+  "version": "0.0.1",
+  "description": "A simple node express application for development services.",
+  "keywords": [
+    "express",
+    "bcrypt",
+    "jwt"
+  ],
+  "author": "Nicholas Bekeris <nicholas@b3kndev.com>",
+  "homepage": "https://github.com/b3kN/angular-starter",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "bcryptjs": "^2.4.3",
+    "express": "^4.16.2",
+    "jsonwebtoken": "^8.1.0",
+    "mongoose": "^4.13.5",
+    "ts-node": "~3.2.0",
+    "tslint": "~5.7.0",
+    "typescript": "~2.4.2"
+  }
+}
