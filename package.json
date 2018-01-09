@@ -4,20 +4,44 @@
   "description": "A simple node express application for development services.",
   "keywords": [
     "express",
-    "bcrypt",
-    "jwt"
+    "jwt",
+    "passport"
   ],
   "author": "Nicholas Bekeris <nicholas@b3kndev.com>",
-  "homepage": "https://github.com/b3kN/angular-starter",
+  "homepage": "https://github.com/b3kN/b3knDevAPI",
   "license": "MIT",
   "dependencies": {
-    "body-parser": "^1.18.2",
-    "bcryptjs": "^2.4.3",
-    "express": "^4.16.2",
-    "jsonwebtoken": "^8.1.0",
-    "mongoose": "^4.13.5",
-    "ts-node": "~3.2.0",
-    "tslint": "~5.7.0",
-    "typescript": "~2.4.2"
+    "angular2-jwt": "^0.2.3",
+    "auto-bind": "^1.1.0",
+    "body-parser": "^1.17.1",
+    "cors": "^2.8.4",
+    "debug": "^2.6.6",
+    "express": "latest",
+    "express-validator": "^3.2.0",
+    "extend-error": "0.0.2",
+    "http-status-codes": "^1.1.6",
+    "jsonwebtoken": "^7.4.0",
+    "mongoose": "^4.9.8",
+    "passport": "^0.3.2",
+    "passport-jwt": "^2.2.1",
+    "passport-local": "latest",
+    "passport-strategy": "latest",
+    "rxjs": "^5.5.6",
+    "should": "^11.2.1",
+    "validator": "^7.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/b3kN/b3kndevapi.git"
+  },
+  "bugs": {
+    "url": "https://github.com/b3kn/b3kndevapi/issues"
+  },
+  "engines": {
+    "node": ">= 4.2.1",
+    "npm": ">= 3"
+  },
+  "devDependencies": {
+    "@types/cors": "^2.8.3"
   }
 }
