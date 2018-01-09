@@ -1,0 +1,11 @@
+global.Models       = App + 'models/';
+global.AuthStrategy = App + 'authStrategy/';
+global.Controllers  = App + 'controllers/';
+global.Handlers     = App + 'handlers/';
+global.Services     = App + 'services/';
+global.Base         = App + 'base/';
+global.Errors       = App + 'errors/';
+global.Managers     = App + 'managers/';
+global.Middleware   = App + 'middleware/';
+global.Routes       = App + 'routes/';
+global.Config       = __dirname + '/';
