@@ -17,7 +17,7 @@
     "cors": "^2.8.4",
     "debug": "^2.6.6",
     "express": "latest",
-    "express-validator": "^3.2.0",
+    "express-validator": "^5.0.0",
     "extend-error": "0.0.2",
     "http-status-codes": "^1.1.6",
     "jsonwebtoken": "^7.4.0",
@@ -28,7 +28,7 @@
     "passport-strategy": "latest",
     "rxjs": "^5.5.6",
     "should": "^11.2.1",
-    "validator": "^7.0.0"
+    "validator": "^9.4.1"
   },
   "repository": {
     "type": "git",
