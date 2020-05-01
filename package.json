@@ -28,7 +28,8 @@
     "passport-strategy": "latest",
     "rxjs": "^5.5.6",
     "should": "^11.2.1",
-    "validator": "^7.0.0"
+    "validator": "^7.0.0",
+    "snyk": "^1.316.1"
   },
   "repository": {
     "type": "git",
@@ -43,5 +44,10 @@
   },
   "devDependencies": {
     "@types/cors": "^2.8.3"
-  }
+  },
+  "scripts": {
+    "snyk-protect": "snyk protect",
+    "prepare": "npm run snyk-protect"
+  },
+  "snyk": true
 }
